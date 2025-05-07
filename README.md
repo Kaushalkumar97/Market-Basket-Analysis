@@ -46,12 +46,12 @@ Visualization
 High-confidence and high-lift rules are visualized using bar plots and heatmaps to interpret item associations effectively.
 ***
 ## 📈 Results & Insights
-Extracted strong association rules (e.g., '{milk} → {bread}') with high support and lift values.
-Identified frequent itemsets that can guide product bundling and promotional campaigns.
-Visualizations highlight top rules and item combinations that frequently occur together.
+- Extracted strong association rules (e.g., '{milk} → {bread}') with high support and lift values.
+- Identified frequent itemsets that can guide product bundling and promotional campaigns.
+- Visualizations highlight top rules and item combinations that frequently occur together.
 ***
 ## 💡 Use Cases
-Retail recommendations: Suggest related items at checkout or on product pages.
-Promotional planning: Create offers based on frequently bought-together items.
-Store layout optimization: Place frequently associated items near each other.
-Inventory forecasting: Predict demand for product combinations.
+- Retail recommendations: Suggest related items at checkout or on product pages.
+- Promotional planning: Create offers based on frequently bought-together items.
+- Store layout optimization: Place frequently associated items near each other.
+- Inventory forecasting: Predict demand for product combinations.
