@@ -24,17 +24,17 @@ The dataset contains transactional data where each row represents a shopping bas
 - Suitable for one-hot encoding using TransactionEncoder for association rule mining.
 ***
 ### 🧰 Libraries and Tools Used
-- 'pandas' – Data manipulation
-- 'numpy' – Array handling
-- 'seaborn', 'matplotlib' – Data visualization
-- 'csv' – Reading raw transaction lists
-- 'mlxtend' – Apriori algorithm and rule generation
+- `pandas` – Data manipulation
+- `numpy`' – Array handling
+- `seaborn`, 'matplotlib' – Data visualization
+- `csv` – Reading raw transaction lists
+- `mlxtend` – Apriori algorithm and rule generation
 ***
 ### ⚙️ Methodology
 #### Data Loading
-Transaction data is read using 'csv.reader' and stored in a list format for flexible processing.
+Transaction data is read using `csv.reader` and stored in a list format for flexible processing.
 #### Preprocessing
-The raw transaction list is transformed into a one-hot encoded matrix using 'TransactionEncoder', which allows us to apply algorithms that require binary input.
+The raw transaction list is transformed into a one-hot encoded matrix using `TransactionEncoder`, which allows us to apply algorithms that require binary input.
 #### Frequent Itemset Generation
 The Apriori algorithm is applied to discover itemsets that appear together with a minimum support threshold.
 #### Association Rule Mining
@@ -46,7 +46,7 @@ Generated frequent itemsets are converted into rules using metrics like:
 High-confidence and high-lift rules are visualized using bar plots and heatmaps to interpret item associations effectively.
 ***
 ### 📈 Results & Insights
-- Extracted strong association rules (e.g., '{milk} → {bread}') with high support and lift values.
+- Extracted strong association rules (e.g., `{milk} → {bread}`) with high support and lift values.
 - Identified frequent itemsets that can guide product bundling and promotional campaigns.
 - Visualizations highlight top rules and item combinations that frequently occur together.
 ***
