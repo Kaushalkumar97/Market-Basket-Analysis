@@ -23,14 +23,14 @@ The dataset contains transactional data where each row represents a shopping bas
 - No fixed number of columns (unlike structured tabular data).
 - Suitable for one-hot encoding using TransactionEncoder for association rule mining.
 ***
-## 🧰 Libraries and Tools Used
+### 🧰 Libraries and Tools Used
 - 'pandas' – Data manipulation
 - 'numpy' – Array handling
 - 'seaborn', 'matplotlib' – Data visualization
 - 'csv' – Reading raw transaction lists
 - 'mlxtend' – Apriori algorithm and rule generation
 ***
-## ⚙️ Methodology
+### ⚙️ Methodology
 #### Data Loading
 Transaction data is read using 'csv.reader' and stored in a list format for flexible processing.
 #### Preprocessing
@@ -45,12 +45,12 @@ Generated frequent itemsets are converted into rules using metrics like:
 #### Visualization
 High-confidence and high-lift rules are visualized using bar plots and heatmaps to interpret item associations effectively.
 ***
-## 📈 Results & Insights
+### 📈 Results & Insights
 - Extracted strong association rules (e.g., '{milk} → {bread}') with high support and lift values.
 - Identified frequent itemsets that can guide product bundling and promotional campaigns.
 - Visualizations highlight top rules and item combinations that frequently occur together.
 ***
-## 💡 Use Cases
+### 💡 Use Cases
 - Retail recommendations: Suggest related items at checkout or on product pages.
 - Promotional planning: Create offers based on frequently bought-together items.
 - Store layout optimization: Place frequently associated items near each other.
