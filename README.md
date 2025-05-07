@@ -16,10 +16,10 @@ This notebook walks through the full pipeline:
 ***
 ## 📂 Dataset Description
 The dataset contains transactional data where each row represents a shopping basket filled with one or more items purchased by a customer.
-## 📄 Format:
+### 📄 Format:
 - Each row is a list of items in a single transaction.
 - Stored in a CSV file and loaded using Python's built-in csv.reader() to accommodate variable-length rows (ragged arrays).
-## ✅ Key Characteristics:
+### ✅ Key Characteristics:
 - No fixed number of columns (unlike structured tabular data).
 - Suitable for one-hot encoding using TransactionEncoder for association rule mining.
 ***
@@ -31,18 +31,18 @@ The dataset contains transactional data where each row represents a shopping bas
 - 'mlxtend' – Apriori algorithm and rule generation
 ***
 ## ⚙️ Methodology
-Data Loading
+#### Data Loading
 Transaction data is read using 'csv.reader' and stored in a list format for flexible processing.
-Preprocessing
+#### Preprocessing
 The raw transaction list is transformed into a one-hot encoded matrix using 'TransactionEncoder', which allows us to apply algorithms that require binary input.
-Frequent Itemset Generation
+#### Frequent Itemset Generation
 The Apriori algorithm is applied to discover itemsets that appear together with a minimum support threshold.
-Association Rule Mining
+#### Association Rule Mining
 Generated frequent itemsets are converted into rules using metrics like:
 - Support
 - Confidence
 - Lift
-Visualization
+#### Visualization
 High-confidence and high-lift rules are visualized using bar plots and heatmaps to interpret item associations effectively.
 ***
 ## 📈 Results & Insights
