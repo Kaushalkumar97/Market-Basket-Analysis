@@ -1,10 +1,11 @@
-# Market-Basket-Analysis
- Market Basket Analysis using Apriori Algorithm
-This project implements Market Basket Analysis using the Apriori algorithm to uncover frequent itemsets and generate association rules from transactional purchase data. It helps retailers and analysts understand customer buying patterns, optimize product placement, and make data-driven decisions for cross-selling and promotions.
+# Market Basket Analysis using Apriori Algorithm
 ---
-📌 Project Overview
-Market Basket Analysis is a data mining technique used by businesses to discover associations between products bought together. This project focuses on using the Apriori algorithm (via the mlxtend library) to extract meaningful relationships between items in customer transactions. These insights are valuable for improving sales strategies such as bundling products, recommending items, or optimizing shelf layouts.
+This project implements Market Basket Analysis using the Apriori algorithm to uncover frequent itemsets and generate association rules from transactional purchase data. It helps retailers and analysts understand customer buying patterns, optimize product placement, and make data-driven decisions for cross-selling and promotions.
 ***
+# 📌 Project Overview
+---
+Market Basket Analysis is a data mining technique used by businesses to discover associations between products bought together. This project focuses on using the Apriori algorithm (via the mlxtend library) to extract meaningful relationships between items in customer transactions. These insights are valuable for improving sales strategies such as bundling products, recommending items, or optimizing shelf layouts.
+
 This notebook walks through the full pipeline:
 
 -Data extraction
@@ -12,8 +13,8 @@ This notebook walks through the full pipeline:
 -Frequent pattern mining
 -Association rule generation
 -Result visualization and interpretation
----
-📂 Dataset Description
+###
+# 📂 Dataset Description
 The dataset contains transactional data where each row represents a shopping basket filled with one or more items purchased by a customer.
 
 📄 Format:
